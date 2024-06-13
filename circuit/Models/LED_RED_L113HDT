@@ -1,0 +1,18 @@
+* SPICE model Knightbright 2x5mm RECTANGULAR LED LAMP L-113HDT Bright Red
+
+* BV - reverse breakdown voltage
+* IBV - current at breakdown voltage
+* CJO - zero-bias junction bottom-wall capacitance
+* VJ - junction potential
+* M - area junction grading coefficient
+* TT - transit time
+
+.subckt LED_RED_L113HDT A K params: Is=1.5620834271347568e-18 Rs=16.30546595311395 N=1.9960211686013973
+
+D A K LED IC=0.0
+
+.model LED D
++	IS={Is} // IS - saturation current
++	RS={Rs} // RS - ohmic resistance
++	N={N} // N - emission coefficient
+.ends

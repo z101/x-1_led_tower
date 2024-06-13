@@ -1,0 +1,18 @@
+* SPICE model rectifier diode 1N4001 manufactured by Diotec Semiconductor AG (c)
+
+.subckt 1N4001 A K params: Vrsm=50 Ir=5u Vf=1.1 Ifav=1 Rs=.05 trr=1500n Cj=15p Eg=1.11 Xti=3
+
+D A K Rectifier IC=0.0
+
+.model Rectifier D
++	IS={Ir/40} // IS - saturation current; Ir - leakage current
++	BV={Vrsm*1.05} // BV - reverse breakdown voltage; Vrsm - surge peak reverse voltage / reverse avalanche breakdown voltage
++	IBV={Ir} // IBV - current at breakdown voltage; Ir - leakage current
++	N={.8*Vf/25m/(ln(Ifav)-ln(Ir/40))} // N - emission coefficient; Vf - forward voltage; Ifav - test current for Vf, usually equal to average forward rectifier current; Ir - leakage current
++	RS={Rs} // RS - ohmic resistance
++	EG={Eg} // EG - energy gap for temperature effect on IS
++	XTI={Xti} // XTI - temperature exponent for effect on IS
++	CJO={Cj*2} // CJO - zero-bias junction bottom-wall capacitance; Cj - junction capacitance at 4V
++	M=.33 // M - area junction grading coefficient
++	TT={trr} // TT - transit time; trr - reverse recovery time; for Shottky, set trr=5n
+.ends

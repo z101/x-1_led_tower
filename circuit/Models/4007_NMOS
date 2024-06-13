@@ -1,0 +1,14 @@
+* SPICE model NMOS in 4007 CMOS
+
+.subckt 4007_NMOS D G S
+
+M D G S S MOSFET L=2.0E-7 W=1E-7 IC=0.0, 0.0, 0.0
+
+.model MOSFET NMOS
++	CGSO=3.4E-10
++	CGDO=3.4E-10
++	CGBO=5.75E-10
++	RSH=200
++	NSUB=5.33E15
++	U0=925
+.ends
