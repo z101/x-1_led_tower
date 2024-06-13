@@ -6,6 +6,6 @@ The project will be break down to next parts:
 3. Assembly. The most interesting part - building sculpture itself
 
 ## v.1 FreeCAD prototype
-[x-1_led_tower v.1 FreeCAD prototype](images/x-1_led_tower_v.1.png)
+![x-1_led_tower v.1 FreeCAD prototype](images/x-1_led_tower_v.1.png)
 
 To be continued...
