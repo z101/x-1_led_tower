@@ -11,7 +11,7 @@ The project will be break down to next parts:
 ## v.1 KiCAD circuit SPICE flash spike simulation
 ![x-1_led_tower circuit SPICE Simulation Plot v.1 KiCAD prototype](images/x-1_led_tower_circuit_spice_plot_v.1.png)
 
-## v.1 FreeCAD prototype
+## v.1 FreeCAD 3D prototype
 ![x-1_led_tower 3d v.1 FreeCAD prototype](images/x-1_led_tower_3d_v.1.png)
 
 To be continued...
