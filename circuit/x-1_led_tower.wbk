@@ -1,10 +1,10 @@
 {
-  "last_sch_text_sim_command": ".tran 10u 3s uic",
+  "last_sch_text_sim_command": ".tran 5u 700m uic",
   "tabs": [
     {
       "analysis": "TRAN",
       "commands": [
-        ".tran 10u 3s uic",
+        ".tran 5u 700m 0",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -22,22 +22,21 @@
       "traces": [
         {
           "color": "rgb(228, 26, 28)",
-          "signal": "I(R1)",
-          "trace_type": 258
-        },
-        {
-          "color": "rgb(255, 255, 51)",
-          "signal": "I(R6)",
+          "cursor1": {
+            "position": 0.3368151413554789,
+            "x_format": "3~s",
+            "y_format": "3~A"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "signal": "I(XQ1:D)",
           "trace_type": 258
         },
         {
           "color": "rgb(77, 175, 74)",
-          "signal": "I(XVD2:A)",
-          "trace_type": 258
-        },
-        {
-          "color": "rgb(255, 127, 0)",
-          "signal": "V(Net-_VD2-A_)",
+          "signal": "V(Net-_C2-Pad2_)",
           "trace_type": 257
         }
       ]

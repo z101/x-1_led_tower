@@ -1,0 +1,13 @@
+* SPICE model PMOS in 4007 CMOS
+
+.subckt 4007_PMOS D G S
+
+M1 D G S S DMOS L=30u W=10u IC=0.0, 0.0, 0.0
+
+.model DMOS PMOS
++	LEVEL=1
++	VTO=-1.2
++	KP=55u
++	LAMBDA=0.04
++	TOX=1200n
+.ends

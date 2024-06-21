@@ -1,0 +1,13 @@
+* SPICE model N-MOSFET BS170
+
+.subckt BS170 D G S
+
+M1 D G S S DMOS L=1u W=1u IC=0.0, 0.0, 0.0
+
+.model DMOS NMOS
++	LEVEL=3
++	VTO=2.9
++	KP=8.2E-1
++	VMAX=0.8E5
++	THETA=0.05
+.ends
