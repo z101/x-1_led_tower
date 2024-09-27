@@ -21,8 +21,7 @@ Due to a number of reasons, I can't solder at home yet. Therefore, I decided to 
 ![x-1_led_tower 3d v2 FreeCAD prototype](images/x-1_led_tower_3d_v2.png)
 
 ## FreeCAD 3D prototype version 2 assembly (failed)
-Assembling the sculpture neatly using the blueprints of v2 turned out to be too difficult for me. As a result, I abandoned v2 and decided to remake it into v3 - lightweight and simplified.
-![x-1_led_tower assembly v2 failed](images/x-1_led_tower_assembly_v2_failed.png)
+Assembling the sculpture neatly using the blueprints of v2 turned out to be too difficult for me. As a result, I abandoned v2 and decided to remake it into v3 - lightweight and simplified.  ![x-1_led_tower assembly v2 failed](images/x-1_led_tower_assembly_v2_failed.png)
 
 ## FreeCAD 3D prototype version 3
 ![x-1_led_tower 3d v3 FreeCAD prototype](images/x-1_led_tower_3d_v3.png)
