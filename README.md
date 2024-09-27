@@ -14,7 +14,7 @@ The project will be break down to next parts:
 ## FreeCAD 3D prototype version 1
 ![x-1_led_tower 3d v1 FreeCAD prototype](images/x-1_led_tower_3d_v1.png)
 
-## Initial conditions changing
+## Initial conditions changed
 Due to a number of reasons, I can't solder at home yet. Therefore, I decided to redesign the tower project for assembly via crimping.
 
 ## FreeCAD 3D prototype version 2
