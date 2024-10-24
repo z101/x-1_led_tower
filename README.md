@@ -28,4 +28,11 @@ Assembling the sculpture neatly using the blueprints of v2 turned out to be too 
 I abandoned v2 and decided to remake it into v3 - lightweight and simplified.  
 ![x-1_led_tower 3d v3 FreeCAD prototype](images/x-1_led_tower_3d_v3.png)
 
+## FreeCAD 3D prototype version 3 assembly (failed)
+Another fail with assembling triangle holder and bending. Threw it away...
+
+## FreeCAD 3D prototype version 4
+Another remake v4 - simplified for assembly
+![x-1_led_tower 3d v4 FreeCAD prototype](images/x-1_led_tower_3d_v4.png)
+
 To be continued...
