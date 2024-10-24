@@ -32,7 +32,7 @@ I abandoned v2 and decided to remake it into v3 - lightweight and simplified.
 Another fail with assembling triangle holder and bending. Threw it away...
 
 ## FreeCAD 3D prototype version 4
-Another remake v4 - simplified for assembly
+Another remake v4 - simplified for assembly  
 ![x-1_led_tower 3d v4 FreeCAD prototype](images/x-1_led_tower_3d_v4.png)
 
 To be continued...
