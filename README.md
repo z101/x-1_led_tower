@@ -47,7 +47,7 @@ At first I tried soldering with pine rosin. The joints were quite neat, but ther
 I switched to liquid flux from Interflux (RP-65). I applied it with an applicator with a brush. The joints turned out nice and clean. But I failed again on soldering the negative battery holder. The 0603 SMD capacitors I wanted to use as separators turned out to be too fragile, the leads were torn off under load. So I decided to abandon the original idea again and move on to version 5 of the sculpture with a completely redesigned battery holder.  
 ![x-1_led_tower assembly v1 frame v2](images/x-1_led_tower_assembly_v1_frame_v2.png)
 
-## FreeCAD 3D prototype version 4
+## FreeCAD 3D prototype version 5
 Another remake v5 - improved battery holders and overall sculpture view.  
 ![x-1_led_tower 3d v5 FreeCAD prototype](images/x-1_led_tower_3d_v5.png)
 
