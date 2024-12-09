@@ -51,4 +51,43 @@ I switched to liquid flux from Interflux (RP-65). I applied it with an applicato
 Another remake v5 - improved battery holders and overall sculpture view.  
 ![x-1_led_tower 3d v5 FreeCAD prototype](images/x-1_led_tower_3d_v5.png)
 
-To be continued...
+## FreeCAD 3D prototype version 5 assembly (failed)
+I started the build of version 5 with the battery holder as the most controversial part of the design. The goal was to get independent sections for each CR2032. Unfortunately, the ceramic 1206 SMD decoupling capacitors fell apart when I inserted the batteries.  
+![x-1_led_tower assembly v5 battery holder](images/x-1_led_tower_assembly_v5_battery_holder.png)
+
+## FreeCAD 3D prototype version 5.1
+Another remake v5.1 - combined battery holder (with fewer SMD 1206 capacitors).  
+![x-1_led_tower 3d v5.1 FreeCAD prototype](images/x-1_led_tower_3d_v5.1.png)
+
+## FreeCAD 3D prototype version 5.1 assembly (failed)
+The assembly of the holder of this version also failed. Even at the soldering stage. The SMD capacitors turned out to be too thin and fragile, and fell apart when trying to solder the holder to the side of the frame.  
+![x-1_led_tower assembly v5.1 battery holder](images/x-1_led_tower_assembly_v5.1_battery_holder.png)
+
+## FreeCAD 3D prototype version 5.2
+Another remake v5.2 - replacing SMD capacitors by its DIP analogs.  
+![x-1_led_tower 3d v5.2 FreeCAD prototype](images/x-1_led_tower_3d_v5.2.png)
+
+## FreeCAD 3D prototype version 5.2 assembly (success, finally! :)
+At first I wanted to replace the thin and fragile 1206 capacitors with thiker 1210 ones. But then I decided to use "more durable" DIP ceramic capacitors with low capacitance. With them I managed to successfully complete soldering the entire sculpture.  
+![x-1_led_tower assembly v5.2](images/x-1_led_tower_assembly_v5.2.png)  
+
+## Simulation vs Reality
+The simulated results of the voltage drop on the resistor R6 at the moment of LED flashes in KiCAD practically the same with the actual values taken by the Rigol oscilloscope (DHO814). However, the frequency of flashes is very different: ~1.5 Hz for simulation and ~0.25 Hz for the real circuit. I haven't figured out the reasons yet - I decided to leave it as is. The blinking is not annoying. Let's see how long it works without replacing the batteries.  
+  
+Simulated R6 flash voltage drop:  
+![x-1_led_tower_circuit_spice_R6_voltage_drop_plot](images/x-1_led_tower_circuit_spice_R6_voltage_drop_plot.png)  
+  
+Real R6 flash voltage drop:  
+![x-1_led_tower_oscilloscope_R6_voltage_drop_plot](images/x-1_led_tower_oscilloscope_R6_voltage_drop_plot.png)  
+
+## Summary
+Overall, I am pleased with the result. The circuit is, of course, very trivial. But it is OK for the first time.  
+  
+ - **What I liked about assembling the sculpture**
+   - I liked to solder with liquid flux Interflux RF65. It is very convenient to apply with an applicator with a brush. It does not smell, have no residue indeed
+   - The following really helped in the work: a jewelry third hand, a steel plate with round neodymium magnets, a steel corner plate, thin curved tweezers
+   - The wire frame looks nice
+ - **What needs to be worked on**
+   - The soldering quality is still terrible and far from beautiful joints - I need to practice more (especially when many conductors converge at one point). Considering that this is my first experience in soldering, there is room for growth :)
+   - The wire with a diameter of 1 mm is too thick for the frame. In the future, I will try 0.8 mm
+   - The assembly quality of the circuit itself (from DIP parts). The assembly of the circuit does not look neat. It is necessary to think about "flattening" using medium or large size SMD components (so that their soldering is not a pain)

@@ -21,22 +21,8 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(228, 26, 28)",
-          "cursor1": {
-            "position": 0.3368151413554789,
-            "x_format": "3~s",
-            "y_format": "3~A"
-          },
-          "cursorD": {
-            "x_format": "3~s",
-            "y_format": "3~V"
-          },
-          "signal": "I(XQ1:D)",
-          "trace_type": 258
-        },
-        {
-          "color": "rgb(77, 175, 74)",
-          "signal": "V(Net-_C2-Pad2_)",
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(/VD2.A)",
           "trace_type": 257
         }
       ]
